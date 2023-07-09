@@ -13,7 +13,7 @@ class UserService{
             return jsonBody;
         }
         else {
-            print('İstek Başarısız Oldu: ${res.statusCode}');
+            print('Hata: ${res.statusCode}');
         }
         return null;
     }

@@ -13,7 +13,6 @@ class _HomePagesState extends State<HomePages> {
   final UserService _service = UserService();
   List<UsersModelData?> users = [];
 
-  bool? isLoading;
   @override
   void initState() {
     super.initState();
@@ -31,6 +30,7 @@ class _HomePagesState extends State<HomePages> {
     });
   }
 
+  bool? isLoading;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
