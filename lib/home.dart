@@ -57,7 +57,7 @@ class _HomePagesState extends State<HomePages> {
                   },
                 )
               : const Center(
-                  child: Text('Bir Sorun Oluştu'),
+                  child: Text('Bir Sorun Oluştu.'),
                 ),
     );
   }
